@@ -9,7 +9,7 @@
 #     print('1') if i in N else print('0')
 
 
-
+ 
 # #sol.02 -> 참고코드
 # from sys import stdin, stdout
 # n = stdin.readline()
@@ -67,3 +67,7 @@ def binary_search(N, M):
 
 for i in range(m):
     print(binary_search(N, M[i]))
+
+
+#return을 하지 않았음
+#mid 괄호
